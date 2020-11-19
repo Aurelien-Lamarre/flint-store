@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-const CardItems = ({ props }) => {
-  {console.log(props)}
+const CardItems = ({props}) => {
   return (
     <>
       <div>
-        <p>{ props.item}</p>
-        <img src={props.item_img_url} />
-        <p>{ props.item_description}</p>
+        <img src={props.item_img_url} alt="" /> 
+        <h1>{props.item}</h1>
+        <p>{props.item_description}</p>
+        <p>{props.item_price}</p>
       </div>
     </>
   );

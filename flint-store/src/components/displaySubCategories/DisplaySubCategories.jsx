@@ -1,24 +1,27 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import CardItems from './CardItems';
 import JsonFake from './../../static/JsonFAke.json';
 
-const DisplaySubCategories = ({props}) => {
-  // const [list, setList] = useEffect([]);
+const DisplaySubCategories = ({type, title}) => {
   
   return (
-
-  <>
-    <h1>Type</h1>
-      {
-        props.map(el => {
+     <div>
+      <p>DisplaySubCategories page</p>
+      <div>
+        <h1>{title}</h1>
+        { type.map(item => {
           return (
-            <CardItems key={el.item_id} props={el} />
+            <div>
+              <CardItems 
+                key={item.item_id}
+                props ={item}
+              />
+            </div>
           )
-        })
-    }
-    </>
-  )
-  ;
+        })}
+      </div>
+     </div>    
+  );
 }
 
 export default DisplaySubCategories;
