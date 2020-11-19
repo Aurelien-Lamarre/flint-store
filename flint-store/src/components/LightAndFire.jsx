@@ -3,7 +3,6 @@ import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
 import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
-import CardItems from './displaySubCategories/CardItems';
 
 
 const CardWrap = Styled.div`
