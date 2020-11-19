@@ -1,7 +1,7 @@
 [
   {
     "category": "Feu et Lumiere",
-    "type":"Alumette",
+    "type":"Allumette",
     "item": "1er prix",
     "item_id": 1, 
     "item_description": "", 
@@ -10,7 +10,7 @@
   },
   {
     "category": "Feu et Lumiere",
-    "type":"Alumette",
+    "type":"Allumette",
     "item": "premium",
     "item_id": 2, 
     "item_description": "", 
@@ -19,7 +19,7 @@
   },
   {
     "category": "Feu et Lumiere",
-    "type":"Alumette",
+    "type":"Allumette",
     "item": "super premium",
     "item_id": 3, 
     "item_description": "", 
@@ -28,7 +28,7 @@
   },
   {
     "category": "Feu et Lumiere",
-    "type":"Alumette",
+    "type":"Allumette",
     "item": "decorative",
     "item_id": 4, 
     "item_description": "", 

@@ -6,14 +6,14 @@ width: 50%;
 height: 50%`
   ;
 
-const CardItems = ({ props }) => {
-  {console.log(props)}
+const CardItems = ({props}) => {
   return (
     <>
       <div>
-        <p>{ props.item}</p>
-        <Img src={props.item_img_url} />
-        <p>{ props.item_description}</p>
+        <Img src={props.item_img_url} alt="" /> 
+        <h1>{props.item}</h1>
+        <p>{props.item_description}</p>
+        <p>{props.item_price}</p>
       </div>
     </>
   );
