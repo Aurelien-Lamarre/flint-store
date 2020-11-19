@@ -1,12 +1,19 @@
 import React, { useState, useEffect } from 'react';
+import Styled from 'styled-components';
 
-const CardItems = () => {
+const Img = Styled.img`
+width: 50%;
+height: 50%`
+  ;
+
+const CardItems = ({props}) => {
   return (
     <>
       <div>
-        <p>Item title</p>
-        <p>Item image</p>
-        <p>Item description</p>
+        <Img src={props.item_img_url} alt="" /> 
+        <h1>{props.item}</h1>
+        <p>{props.item_description}</p>
+        <p>{props.item_price}</p>
       </div>
     </>
   );
