@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
+
 
 const TorchParty = () => {
   return (
-    <p>Torch Party page !</p>
+    <>
+      <h1>Torch Party page !</h1>
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+    </>
   );
 }
 
