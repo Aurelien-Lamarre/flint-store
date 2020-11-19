@@ -1,16 +1,14 @@
 import React from 'react';
 import CardItems from './CardItems';
-import Styled from 'styled-components';
-import JsonFake from './../../static/JsonFAke.json';
 
-const DisplaySubCategories = ({type, title}) => {
+const DisplaySubCategories = ({props, title}) => {
   
   return (
      <div>
       <p>DisplaySubCategories page</p>
       <div>
         <h1>{title}</h1>
-        { type.map(item => {
+        { props.map(item => {
           return (
             <div>
               <CardItems 
