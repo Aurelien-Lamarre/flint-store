@@ -17,15 +17,19 @@ const LightAndFire = () => {
       })
   })
   
-const alumette = JsonFAke.filter(items => items.type === "Alumette")
+  const alumette = JsonFAke.filter(items => items.type === "Alumette");
+  const lighter = JsonFAke.filter(items => items.type === "Briquet");
+  const torch = JsonFAke.filter(items => items.type === "Torche");
+  const bbq = JsonFAke.filter(items => items.type === "Barbecue");
+
 
   return (
     <>
       <h1>Light and Fire page</h1>
       <DisplaySubCategories props={alumette }/>
-      {/* <DisplaySubCategories />
-      <DisplaySubCategories />
-      <DisplaySubCategories /> */}
+      <DisplaySubCategories  props={lighter} />
+      <DisplaySubCategories props={torch} />
+      <DisplaySubCategories props={bbq} />
     </>
   );
 }

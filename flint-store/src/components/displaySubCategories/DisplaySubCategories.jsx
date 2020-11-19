@@ -8,7 +8,7 @@ const DisplaySubCategories = ({props}) => {
   return (
 
   <>
-    <p>Type</p>
+    <h1>Type</h1>
       {
         props.map(el => {
           return (
