@@ -17,6 +17,6 @@ itemName VARCHAR(100) NOT NULL,
 itemDescription VARCHAR(300),
 itemPrice FLOAT,
 itemImg NVARCHAR(500), 
-FK_typeId INT FOREIGN KEY REFERENCES [SubCategory](subCategoryId) NOT NULL,
-FK_CategoryId INT FOREIGN KEY REFERENCES [Category](categoryId) NOT NULL,
+subCategoryId INT FOREIGN KEY REFERENCES [SubCategory](subCategoryId) NOT NULL,
+FK_categoryId INT FOREIGN KEY REFERENCES [Category](categoryId) NOT NULL,
 );
