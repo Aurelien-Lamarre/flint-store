@@ -1,8 +1,17 @@
 import React, { useState, useEffect } from 'react';
+import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
+
 
 const WeaponsAndHunting = () => {
   return (
-    <p>Weapons and Hunting equipments page</p>
+    <>
+      <h1>Weapons and Hunting equipments page</h1>
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+      <DisplaySubCategories />
+    </>
   );
 }
 
