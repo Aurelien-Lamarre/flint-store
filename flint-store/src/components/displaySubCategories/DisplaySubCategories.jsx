@@ -1,5 +1,6 @@
 import React from 'react';
 import CardItems from './CardItems';
+import Styled from 'styled-components';
 import JsonFake from './../../static/JsonFAke.json';
 
 const DisplaySubCategories = ({type, title}) => {
@@ -25,3 +26,5 @@ const DisplaySubCategories = ({type, title}) => {
 }
 
 export default DisplaySubCategories;
+
+
