@@ -1,12 +1,22 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import CardItems from './CardItems';
 
-const DisplaySubCategories = () => {
+const DisplaySubCategories = ({type}) => {
+  
   return (
-    <>
+     <div>
       <p>DisplaySubCategories page</p>
-      <CardItems />
-    </>
+      <div>
+        { type.map(item => {
+          return (
+            <CardItems 
+              key={item.item_id}
+              props ={item}
+          />
+          )
+        })}
+      </div>
+     </div>    
   );
 }
 
