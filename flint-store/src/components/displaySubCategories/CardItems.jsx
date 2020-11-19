@@ -16,7 +16,7 @@ const CardItems = ({props}) => {
         <p>{props.item_price}</p>
       </div>
     </>
-  );
+  ); 
 }
 
 export default CardItems;
