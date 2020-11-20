@@ -1,5 +1,6 @@
 import React from 'react';
 import CardItems from './CardItems';
+import Styled from 'styled-components';
 
 const CardWrap = Styled.div`
   display: flex;
@@ -29,7 +30,7 @@ const DisplaySubCategories = ({props, title}) => {
          { props.map(item => {
             return (
                 <CardItems 
-                  key={item.item_id}
+                  key={item.itemId}
                   props ={item}
                />
             )

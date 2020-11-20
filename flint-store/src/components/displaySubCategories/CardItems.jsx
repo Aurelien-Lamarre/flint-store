@@ -13,11 +13,11 @@ const CardItems = ({props}) => {
     <>
       <div className="cardBody">
       <Card>
-        <CardImg className='image'  src={props.item_img_url} alt="Card image cap" />
+        <CardImg className='image'  src={props.itemImg} alt="Card image cap" />
         <CardBody>
-          <CardTitle tag="h5">{props.item}</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.item_price}</CardSubtitle>
-          <CardText>{props.item_description}</CardText>
+          <CardTitle tag="h5">{props.itemName}</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice}</CardSubtitle>
+          <CardText>{props.itemDescription}</CardText>
           <Button>Button</Button>
         </CardBody>
       </Card>
