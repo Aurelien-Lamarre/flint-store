@@ -3,6 +3,7 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './CardItems.css';
 
 import Styled from 'styled-components';
@@ -18,7 +19,7 @@ const CardItems = ({props}) => {
           <CardTitle tag="h5">{props.itemName}</CardTitle>
           <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice}</CardSubtitle>
           <CardText>{props.itemDescription}</CardText>
-          <Button>Button</Button>
+          <Link to='/cart'><Button>Cart</Button></Link>
         </CardBody>
       </Card>
     </div>

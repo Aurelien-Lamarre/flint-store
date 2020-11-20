@@ -1,6 +1,7 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
+import './Home.css';
 import JsonFake from './../static/JsonFAke.json';
 
 const Button1 = Styled.button`
@@ -68,10 +69,10 @@ flex-direction: column;`;
 const Home = () => { 
   return(
     <WrapLink>
-        <Link to='/lightandfire'><Button1></Button1></Link>
-        <Link to='/diy'><Button2></Button2></Link>
-        <Link to='/weaponsandhunting'><Button3></Button3></Link>
-        <Link to='/torchparty'><Button4></Button4></Link>        
+        <Link className='homeLink' to='/lightandfire'><Button1></Button1></Link>
+        <Link className='homeLink' to='/diy'><Button2></Button2></Link>
+        <Link className='homeLink' to='/weaponsandhunting'><Button3></Button3></Link>
+        <Link className='homeLink' to='/torchparty'><Button4></Button4></Link>        
     </WrapLink>
   )
   

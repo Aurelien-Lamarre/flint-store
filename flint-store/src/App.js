@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import Privacy from './components/footerLink/Privacy';
 import Faq from './components/footerLink/Faq';
 import Terms from './components/footerLink/Terms';
+import Cart from './components/displaySubCategories/Cart';
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path='/privacy' component={Privacy} />
           <Route path='/faq' component={Faq} />
           <Route path='/terms' component={Terms} />
+          <Route path='/cart' component={Cart} />
         </Switch>
         <Footer />
     </Router>
