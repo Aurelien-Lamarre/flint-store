@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Nav, NavItem, NavLink } from 'reactstrap';
+import { NavLink } from 'reactstrap';
 import styled from 'styled-components'
 import "./Footer.css"
 
