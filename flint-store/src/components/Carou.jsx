@@ -11,7 +11,7 @@ import {
 const items = [
   {
     src: 'https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2020-07/rr.jpg',
-    altText: 'IL VA FAIRE TOUT NOIR !!!',
+    altText: 'Slide 1',
     caption: 'IL VA FAIRE TOUT NOIR !!!'
   },
   {
@@ -61,7 +61,6 @@ const Carou = (props) => {
   });
 
   return (
-    <div className="CarouselItemCss">
       <Carousel
         activeIndex={activeIndex}
         next={next}
@@ -72,7 +71,6 @@ const Carou = (props) => {
         <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
         <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
       </Carousel>
-    </div>
   );
 }
 
