@@ -10,15 +10,20 @@ const WeaponsAndHunting = () => {
   const bow = JsonFAke.filter(items => items.fK_subCategory === 10);
   const arrow = JsonFAke.filter(items => items.fK_subCategory === 11);
 
+  const maceTitle = "Maces";
+  const spearTitle = "Spears";
+  const slingTitle = "Slings";
+  const bowTitle = "Bows";
+  const arrowTitle = "Arrows";
 
   return (
     <>
-      <h1>Weapons and Hunting equipments page</h1>
-      <DisplaySubCategories props={mace} title={mace[0].fK_subCategory } />
-      <DisplaySubCategories props={spear} title={spear[0].fK_subCategory } />
-      <DisplaySubCategories props={sling} title={sling[0].fK_subCategory } />
-      <DisplaySubCategories props={bow} title={bow[0].fK_subCategory } />
-      <DisplaySubCategories props={arrow} title={arrow[0].fK_subCategory } />
+      <h1>Weapons and Hunting equipments</h1>
+      <DisplaySubCategories props={mace} title={maceTitle} />
+      <DisplaySubCategories props={spear} title={spearTitle} />
+      <DisplaySubCategories props={sling} title={slingTitle} />
+      <DisplaySubCategories props={bow} title={bowTitle} />
+      <DisplaySubCategories props={arrow} title={arrowTitle} />
     </>
   );
 }
