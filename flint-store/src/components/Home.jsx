@@ -1,6 +1,7 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
+import JsonFake from './../static/JsonFAke.json';
 
 const Button = Styled.button`
 width:15em;
@@ -18,7 +19,7 @@ justify-content:center;
 align-items:center;
 flex-direction: column;`;
 
-const Home = () => {
+const Home = () => { 
   return(
     <WrapLink>
         <Button><Link to='/lightandfire'>Fire and Light</Link></Button>
