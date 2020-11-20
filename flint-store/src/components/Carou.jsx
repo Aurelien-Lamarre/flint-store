@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./Carou.css"
 import {
   Carousel,
   CarouselItem,
@@ -9,19 +10,19 @@ import {
 
 const items = [
   {
-    id: 1,
-    altText: 'Slide 1',
-    caption: 'Je vous laisse pimper le reste :p' 
+    src: 'https://www.premiere.fr/sites/default/files/styles/scale_crop_1280x720/public/2020-07/rr.jpg',
+    altText: 'IL VA FAIRE TOUT NOIR !!!',
+    caption: 'IL VA FAIRE TOUT NOIR !!!'
   },
   {
-    id: 2,
+    src: 'https://www.rokai.fr/wp-content/uploads/2019/03/enrochements-3-provinces-e1553522422804.jpg',
     altText: 'Slide 2',
-    caption: 'Je vous laisse pimper le reste :p'
+    caption: 'THESE STONES ARE BEAUTIFUL'
   },
   {
-    id: 3,
+    src: 'https://i.pinimg.com/originals/1e/6c/bc/1e6cbc954124bfd6146e0f15b28d9456.jpg',
     altText: 'Slide 3',
-    caption: 'Je vous laisse pimper le reste :p'
+    caption: 'WOOOAAAAAAW'
   }
 ];
 
@@ -48,32 +49,19 @@ const Carou = (props) => {
 
   const slides = items.map((item) => {
     return (
-      <CarouselItem
-        className="custom-tag"
-        tag="div"
-        key={item.id}
+      <CarouselItem className="CarouselItemCss"
         onExiting={() => setAnimating(true)}
         onExited={() => setAnimating(false)}
+        key={item.src}
       >
-        <CarouselCaption className="text-danger" captionText={item.altText} captionHeader={item.caption} />
+        <img className="imgChanging" src={item.src} alt={item.altText} />
+        <CarouselCaption className="CarouselCaptionItem" captionHeader={item.caption} />
       </CarouselItem>
     );
   });
 
   return (
-    <div>
-      <style>
-        {
-          `.custom-tag {
-              max-width: 100%;
-              height: 500px;
-              background: url("https://s3.static-footeo.com/uploads/ussqb/Medias/une_rrrrrrr-600x356__p587cp.jpg");
-              background-repeat: no-repeat;
-              background-position: center center;
-              backgound-size: contain;
-            }`
-        }
-      </style>
+    <div className="CarouselItemCss">
       <Carousel
         activeIndex={activeIndex}
         next={next}

@@ -1,0 +1,17 @@
+.CarouselItemCss {
+  position: relative;
+  float: left;
+  flex-direction: row;
+  width: 100%;
+  height: 20em;
+  text-align:center;
+} 
+
+.imgChanging {
+  vertical-align: middle;
+  border-style: none;
+  text-align: center;
+  width: inherit;
+  height: 400px;
+  object-fit: cover;
+}
