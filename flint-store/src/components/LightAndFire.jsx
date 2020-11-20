@@ -2,6 +2,12 @@
 import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
 import JsonFAke from './../static/JsonFAke.json';
+import Styled from 'styled-components';
+
+const Title = Styled.h1`
+  text-align: center;
+  margin: 30px;
+  `;
 
 const LightAndFire = () => {
  
@@ -18,7 +24,7 @@ const LightAndFire = () => {
   return (
     <>
 
-      <h1>Fire and Light</h1>
+      <Title>Fire and Light <span role="img" aria-label="fire">🔥</span></Title>
       
         <DisplaySubCategories props={allumette} title={allumetteTitle} />
       

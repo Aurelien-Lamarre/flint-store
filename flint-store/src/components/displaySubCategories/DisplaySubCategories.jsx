@@ -9,14 +9,18 @@ const CardWrap = Styled.div`
   align-items:center;
   justify-content: space-evenly;
   flex-wrap:wrap;
+  margin-top: 20px;
   `;
 
 const Title = Styled.h1`
   height:50%;
+  margin: 10px;
+  border-bottom: 2px solid grey;
   `;
   const Wrap = Styled.div`
   display:flex;
   flex-direction:column;
+  margin: 30px;
   `;
 
 

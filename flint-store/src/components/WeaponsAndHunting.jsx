@@ -1,6 +1,12 @@
 import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
 import JsonFAke from './../static/JsonFAke.json';
+import Styled from 'styled-components';
+
+const Title = Styled.h1`
+  text-align: center;
+  margin: 30px;
+  `;
 
 
 const WeaponsAndHunting = () => {
@@ -18,7 +24,7 @@ const WeaponsAndHunting = () => {
 
   return (
     <>
-      <h1>Weapons and Hunting equipments</h1>
+      <Title>Weapons and Hunting equipments <span role="img" aria-label="arrow">🏹</span></Title>
       <DisplaySubCategories props={mace} title={maceTitle} />
       <DisplaySubCategories props={spear} title={spearTitle} />
       <DisplaySubCategories props={sling} title={slingTitle} />
