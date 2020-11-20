@@ -19,7 +19,6 @@ function App() {
     <div className="body">
       <Router>
       <Navigation />
-      <Carou />
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/lightandfire' component={LightAndFire} />
