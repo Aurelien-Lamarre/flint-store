@@ -1,7 +1,7 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
-import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
 
 const Title = Styled.h1`
@@ -12,11 +12,21 @@ const Title = Styled.h1`
   `;
 
 const LightAndFire = () => {
+  const [lightCat, setLightCat] = useState([]);
+  useEffect(() => {
+    const url = "http://flintstore.azurewebsites.net/flintStore";
+    axios.get(url)
+      .then(res => res.data)
+      .then(data => {
+        console.log(data)
+        setLightCat(data)
+      })
+  },[])
  
-  const allumette = JsonFAke.filter(items => items.fK_subCategory === 1);
-  const lighter = JsonFAke.filter(items => items.fK_subCategory === 2);
-  const torch = JsonFAke.filter(items => items.fK_subCategory === 3);
-  const bbq = JsonFAke.filter(items => items.fK_subCategory === 4);
+  const allumette = lightCat.filter(items => items.fK_subCategory === 1);
+  const lighter = lightCat.filter(items => items.fK_subCategory === 2);
+  const torch = lightCat.filter(items => items.fK_subCategory === 3);
+  const bbq = lightCat.filter(items => items.fK_subCategory === 4);
 
   const allumetteTitle = "Matches"; 
   const lighterTitle = "Lighters";
