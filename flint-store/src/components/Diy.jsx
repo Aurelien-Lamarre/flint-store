@@ -1,6 +1,12 @@
 import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
 import JsonFAke from './../static/JsonFAke.json';
+import Styled from 'styled-components';
+
+const Title = Styled.h1`
+  text-align: center;
+  margin: 30px;
+  `;
 
 const Diy = () => {
 
@@ -13,7 +19,7 @@ const Diy = () => {
 
   return (
     <>
-      <h1>D.I.Y. accessories</h1>
+      <Title>D.I.Y. accessories<span role="img" aria-label="hammer">⚒️</span></Title>
       <DisplaySubCategories props={hammer} title={hammerTitle } />
       <DisplaySubCategories  props={stick} title={stickTitle } />
     </>
