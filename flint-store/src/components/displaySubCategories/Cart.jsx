@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
-// import './App.css';
+import Styled from 'styled-components'
 import ShoppingCart from './CartPage/ShoppingCart'
 import JsonFake from './../../static/JsonFAke.json'
 
+const CartWrap = Styled.div`
+width: 100%;
+margin-bottom: 3em;
+`;
 
 class Cart extends Component {
   constructor(){
@@ -24,9 +28,9 @@ class Cart extends Component {
 
   render() {
     return (
-      <div className="App">
+      <CartWrap>
         <ShoppingCart items={this.state.items} products={this.state.products} addItemFunction={this.addItemFunction}/>
-      </div>
+      </CartWrap>
     );
   }
 }

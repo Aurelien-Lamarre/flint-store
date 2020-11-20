@@ -1,5 +1,11 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import Styled from 'styled-components';
+
+const SelectProductWrap = Styled.div`
+background: white;
+padding:2em;
+`;
 
 export default class AddItem extends React.Component {
 
@@ -29,8 +35,8 @@ export default class AddItem extends React.Component {
     })
 
     return (
-
-        <div className="container add-item-form">
+      <div className="container add-item-form">
+      <SelectProductWrap>
           <h3 className="form-title">Select a Product</h3>
           <Form>
             <FormGroup>
@@ -53,6 +59,7 @@ export default class AddItem extends React.Component {
             </FormGroup>
             <Button onClick={this.handleClick}>Add to Cart</Button>
           </Form>
+        </SelectProductWrap>
         </div>
 
 

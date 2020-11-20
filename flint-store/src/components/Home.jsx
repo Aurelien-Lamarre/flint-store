@@ -1,7 +1,8 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
-
+import './Home.css';
+  
 const Button1 = Styled.button`
 width:35em;
 height:25em;
