@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText, Container } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 import Styled from 'styled-components';
 
 const SelectProductWrap = Styled.div`
