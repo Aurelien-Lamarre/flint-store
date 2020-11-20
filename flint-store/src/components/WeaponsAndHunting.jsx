@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import axios from 'axios';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
-import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
 
 const Title = Styled.h1`
@@ -12,11 +12,22 @@ const Title = Styled.h1`
 
 
 const WeaponsAndHunting = () => {
-  const mace = JsonFAke.filter(items => items.fK_subCategory === 7);
-  const spear = JsonFAke.filter(items => items.fK_subCategory === 8);
-  const sling = JsonFAke.filter(items => items.fK_subCategory === 9);
-  const bow = JsonFAke.filter(items => items.fK_subCategory === 10);
-  const arrow = JsonFAke.filter(items => items.fK_subCategory === 11);
+  const [weapons, setWeapons] = useState([]);
+  useEffect(() => {
+    const url = "http://flintstore.azurewebsites.net/flintStore";
+    axios.get(url)
+      .then(res => res.data)
+      .then(data => {
+        console.log(data)
+        setWeapons(data)
+      })
+  },[])
+
+  const mace = weapons.filter(items => items.fK_subCategory === 7);
+  const spear = weapons.filter(items => items.fK_subCategory === 8);
+  const sling = weapons.filter(items => items.fK_subCategory === 9);
+  const bow = weapons.filter(items => items.fK_subCategory === 10);
+  const arrow = weapons.filter(items => items.fK_subCategory === 11);
 
   const maceTitle = "Maces";
   const spearTitle = "Spears";
