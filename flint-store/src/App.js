@@ -1,17 +1,19 @@
 import './App.css';
-import { BrowserRouter as Router, Link, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import LightAndFire from './components/LightAndFire';
 import Diy from './components/Diy';
 import WeaponsAndHunting from './components/WeaponsAndHunting';
 import TorchParty from './components/TorchParty';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
+import Carou from './components/Carou';
 
 
 function App() {
   return (
     <>
-    <Navigation />
+      <Navigation />
+      <Carou />
     <Router>
       {/* <div className="App">
         <button><Link to='/'>Home</Link></button>
