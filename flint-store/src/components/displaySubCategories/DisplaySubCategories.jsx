@@ -1,5 +1,6 @@
 import React from 'react';
 import CardItems from './CardItems';
+import Styled from 'styled-components';
 
 const CardWrap = Styled.div`
   display: flex;
