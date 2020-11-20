@@ -9,13 +9,18 @@ const TorchParty = () => {
   const wines = JsonFAke.filter(items => items.fK_subCategory === 14);
   const beers = JsonFAke.filter(items => items.fK_subCategory === 15);
 
+  const smokeTitle = "To smoke";
+  const foodTitle = "Foodstuff";
+  const winesTitle = "Wines";
+  const beersTitle = "Beers";
+
   return (
     <>
-      <h1>Torch Party page !</h1>
-      <DisplaySubCategories props={smoke} title={smoke[0].fK_subCategory } />
-      <DisplaySubCategories props={food} title={food[0].fK_subCategory } />
-      <DisplaySubCategories props={wines} title={wines[0].fK_subCategory } />
-      <DisplaySubCategories props={beers} title={beers[0].fK_subCategory } />
+      <h1>Torch Party!</h1>
+      <DisplaySubCategories props={smoke} title={smokeTitle} />
+      <DisplaySubCategories props={food} title={foodTitle} />
+      <DisplaySubCategories props={wines} title={winesTitle} />
+      <DisplaySubCategories props={beers} title={beersTitle} />
     </>
   );
 }
