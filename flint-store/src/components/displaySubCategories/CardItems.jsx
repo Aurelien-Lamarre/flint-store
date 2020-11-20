@@ -3,6 +3,7 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
+import { Link } from 'react-router-dom';
 import './CardItems.css';
 
 
@@ -17,7 +18,7 @@ const CardItems = ({props}) => {
           <CardText>{props.itemDescription}</CardText>
           <div className="price-button-container">
           <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice} <span role="img" aria-label="boar">🐗</span></CardSubtitle>
-          <Button>Add to cart</Button>
+          <Link to='/cart'><Button>Cart</Button></Link>
           </div>
         </CardBody>
       </Card>
