@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
 import './CardItems.css';
-
-import Styled from 'styled-components';
 
 
 const CardItems = ({props}) => {
