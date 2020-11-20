@@ -4,7 +4,7 @@
   "itemName": "1st price",
   "itemDescription": "the cheapest",
   "itemPrice": 1,
-  "itemImg": "https://static.teteamodeler.com/media/cache/thumb_400/7eb2299b03d6d00f8b9fcbfaf51d5dd4cde80c32.png,",
+  "itemImg": "https://images.theconversation.com/files/274038/original/file-20190513-183106-1nf83ky.jpg?ixlib=rb-1.1.0&rect=47%2C0%2C5306%2C3518&q=45&auto=format&w=496&fit=clip",
   "fK_subCategory": 1,
   "fK_categoryId": 1
   },
@@ -112,7 +112,7 @@
   "itemName": "caddy supermarket",
   "itemDescription": "it is just a caddy",
   "itemPrice": 1,
-  "itemImg": "https://lh3.googleusercontent.com/proxy/0Q19lgEdfkbySVg5JRENoDCxik_aSST03kPgxNaBc-IdTERzv0zzMNDm05ghnvchtA8sdbvB21oKZEbjqAOGDua3LMqGbILdZBzSWjs1Ug",
+  "itemImg": "https://pbs.twimg.com/media/DwdhYKZWoAEyq2b.jpg",
   "fK_subCategory": 4,
   "fK_categoryId": 1
   },
@@ -247,7 +247,7 @@
   "itemName": "For Beavers",
   "itemDescription": "Thin and and lightweight perfect to hunt small animals.",
   "itemPrice": 14,
-  "itemImg": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Neptune_cruise_missile_05.jpg",
+  "itemImg": "https://static.turbosquid.com/Preview/2019/04/22__06_39_32/screenshot000.pngBBDDE318-EF98-44F3-A09D-CC709D1B2860Large.jpg",
   "fK_subCategory": 8,
   "fK_categoryId": 3
   },
@@ -355,7 +355,7 @@
   "itemName": "Smoking bear skin",
   "itemDescription": "first catch a bear and then think of smoking",
   "itemPrice": 1000,
-  "itemImg": "https://lh3.googleusercontent.com/proxy/vViBhqCJzfGuAADRn-3kM0jywGO_1TV2dWL9JcfG448pTdReH8Yx1bzg8ye5zD7ev-lvXDCohZo0RcEaw39vr0L8uSHGUrZwmtmVKJ8",
+  "itemImg": "https://thumbs.dreamstime.com/b/close-real-brown-bear-fur-texture-real-brown-bear-fur-texture-127585237.jpg",
   "fK_subCategory": 12,
   "fK_categoryId": 4
   },

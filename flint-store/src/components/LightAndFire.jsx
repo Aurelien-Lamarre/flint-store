@@ -3,7 +3,11 @@ import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
 import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
-import CardItems from './displaySubCategories/CardItems';
+
+const Title = Styled.h1`
+  text-align: center;
+  margin: 30px;
+  `;
 
 const LightAndFire = () => {
  
@@ -12,22 +16,26 @@ const LightAndFire = () => {
   const torch = JsonFAke.filter(items => items.fK_subCategory === 3);
   const bbq = JsonFAke.filter(items => items.fK_subCategory === 4);
 
+  const allumetteTitle = "Matches"; 
+  const lighterTitle = "Lighters";
+  const torchTitle = "Torches";
+  const bbqTitle = "Barbecues"
 
   return (
     <>
 
-      <h1>Light and Fire page</h1>
+      <Title>Fire and Light <span role="img" aria-label="fire">🔥</span></Title>
       
-        <DisplaySubCategories props={allumette} title={allumette[0].fK_subCategory } />
-      
-      
-        <DisplaySubCategories  props={lighter} title={lighter[0].fK_subCategory } />
+        <DisplaySubCategories props={allumette} title={allumetteTitle} />
       
       
-        <DisplaySubCategories props={torch} title={torch[0].fK_subCategory } />
+        <DisplaySubCategories  props={lighter} title={lighterTitle} />
       
       
-        <DisplaySubCategories props={bbq} title={bbq[0].fK_subCategory } />
+        <DisplaySubCategories props={torch} title={torchTitle} />
+      
+      
+        <DisplaySubCategories props={bbq} title={bbqTitle} />
       
 
     </>

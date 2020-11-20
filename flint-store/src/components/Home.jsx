@@ -1,8 +1,6 @@
 import React from 'react'; 
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
-import './Home.css';
-import JsonFake from './../static/JsonFAke.json';
 
 const Button1 = Styled.button`
 width:35em;

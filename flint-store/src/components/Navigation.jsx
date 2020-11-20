@@ -24,7 +24,7 @@ const Navigation = (props) => {
               <NavLink href="/weaponsandhunting">Weapons</NavLink>
             </NavItem>
             <NavItem className="mr-4">
-              <NavLink href="/torchparty">Torch Party</NavLink>
+              <NavLink href="/torchparty">Torchlight Party</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
