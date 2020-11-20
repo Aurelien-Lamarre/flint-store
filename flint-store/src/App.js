@@ -5,18 +5,21 @@ import Diy from './components/Diy';
 import WeaponsAndHunting from './components/WeaponsAndHunting';
 import TorchParty from './components/TorchParty';
 import Home from './components/Home';
+import Navigation from './components/Navigation';
 
 
 function App() {
   return (
+    <>
+    <Navigation />
     <Router>
-      <div className="App">
+      {/* <div className="App">
         <button><Link to='/'>Home</Link></button>
         <button><Link to='/lightandfire'>Fire and Light</Link></button>
         <button><Link to='/diy'>DIY</Link></button>
         <button><Link to='/weaponsandhunting'>Weapons and Hunting</Link></button>
         <button><Link to='/torchparty'>Torch Party</Link></button>
-      </div>
+      </div> */}
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/lightandfire' component={LightAndFire} />
@@ -25,6 +28,7 @@ function App() {
         <Route path='/torchparty' component={TorchParty} />
       </Switch>
     </Router>
+    </>
   );
 }
 
