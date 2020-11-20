@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "Server=tcp:hackatuna.database.windows.net,1433;InitialCatalog=flintStore;PersistSecurityInfo=False;UserID=adtautavel;Password{your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;ConnectionTimeout=30;"
+    }
+  }
+}
