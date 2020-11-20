@@ -1,9 +1,14 @@
-.image{
-  width:auto;
+.image {
+  width: auto;
   height: 12em;
 }
-.cardBody{
+.cardBody {
   width: 17em;
-    margin-bottom: auto;
+  margin-bottom: auto;
 }
 
+.price-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
