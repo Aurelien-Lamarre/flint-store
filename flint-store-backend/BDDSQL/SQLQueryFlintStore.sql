@@ -1,5 +1,5 @@
 ﻿CREATE DATABASE flintStore 
-GO
+
 CREATE TABLE Category (
 categoryId INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
 categoryName VARCHAR(100) NOT NULL, 
