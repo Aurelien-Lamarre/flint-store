@@ -19,7 +19,7 @@ const Diy = () => {
 
   return (
     <>
-      <Title>D.I.Y. accessories<span role="img" aria-label="hammer">⚒️</span></Title>
+      <Title>D.I.Y. accessories <span role="img" aria-label="hammer">⚒️</span></Title>
       <DisplaySubCategories props={hammer} title={hammerTitle } />
       <DisplaySubCategories  props={stick} title={stickTitle } />
     </>
