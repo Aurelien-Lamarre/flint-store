@@ -13,9 +13,10 @@ const CardWrap = Styled.div`
   `;
 
 const Title = Styled.h1`
+  color: white;
   height:50%;
   margin: 10px;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid white;
   `;
   const Wrap = Styled.div`
   display:flex;

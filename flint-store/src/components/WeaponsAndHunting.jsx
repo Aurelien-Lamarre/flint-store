@@ -6,6 +6,8 @@ import Styled from 'styled-components';
 const Title = Styled.h1`
   text-align: center;
   margin: 30px;
+  color: white;
+  text-shadow: 1px -5px 3px black;
   `;
 
 
@@ -24,7 +26,7 @@ const WeaponsAndHunting = () => {
 
   return (
     <>
-      <Title>Weapons and Hunting equipments <span role="img" aria-label="arrow">🏹</span></Title>
+      <Title>WEAPONS AND HUNTING EQUIPEMENTS <span role="img" aria-label="arrow">🏹</span></Title>
       <DisplaySubCategories props={mace} title={maceTitle} />
       <DisplaySubCategories props={spear} title={spearTitle} />
       <DisplaySubCategories props={sling} title={slingTitle} />

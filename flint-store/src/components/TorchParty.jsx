@@ -6,6 +6,8 @@ import Styled from 'styled-components';
 const Title = Styled.h1`
   text-align: center;
   margin: 30px;
+  color: white;
+  text-shadow: 1px -5px 3px black;S
   `;
 
 const TorchParty = () => {
@@ -21,7 +23,7 @@ const TorchParty = () => {
 
   return (
     <>
-      <Title>Torchlight Party! <span role="img" aria-label="party">🎉</span></Title>
+      <Title>TORCHLIGHT PARTY! <span role="img" aria-label="party">🎉</span></Title>
       <DisplaySubCategories props={smoke} title={smokeTitle} />
       <DisplaySubCategories props={food} title={foodTitle} />
       <DisplaySubCategories props={wines} title={winesTitle} />
