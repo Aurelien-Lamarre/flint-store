@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Styled from 'styled-components';
 import './Home.css';
+import Carou from "./Carou"
   
 const Button1 = Styled.button`
 width:35em;
@@ -67,12 +68,16 @@ flex-direction: column;`;
 
 const Home = () => { 
   return(
-    <WrapLink>
+    <dev>
+      <Carou />
+      <WrapLink>
         <Link className='homeLink' to='/lightandfire'><Button1></Button1></Link>
         <Link className='homeLink' to='/diy'><Button2></Button2></Link>
         <Link className='homeLink' to='/weaponsandhunting'><Button3></Button3></Link>
         <Link className='homeLink' to='/torchparty'><Button4></Button4></Link>        
     </WrapLink>
+    </dev>
+
   )
   
 }
