@@ -12,6 +12,8 @@ namespace flint_store_LOCAL_BackEnd
         public string itemDescription { get; set; }
         public double itemPrice { get; set; }
         public string itemImg { get; set; }
+        public int FK_subCategory { get; set; }
+        public int FK_categoryId { get; set; }
 
     }
 }

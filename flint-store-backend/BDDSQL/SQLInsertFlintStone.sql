@@ -25,7 +25,7 @@ VALUES
     ('Beers', 5);
 
 INSERT INTO Item(itemName, itemDescription, itemPrice, itemImg, FK_subCategoryId, FK_categoryId)
-VALUES  ('1st price', 'the cheapest', 1, 'https://static.teteamodeler.com/media/cache/thumb_400/7eb2299b03d6d00f8b9fcbfaf51d5dd4cde80c32.png,', 1, 1),
+VALUES  ('1st price', 'the cheapest', 1, 'https://images.theconversation.com/files/274038/original/file-20190513-183106-1nf83ky.jpg?ixlib=rb-1.1.0&rect=47%2C0%2C5306%2C3518&q=45&auto=format&w=496&fit=clip', 1, 1),
 		('decorative', 'the most beautiful matches', 2, 'https://cdn1.smkg.fr/images/Image/produits/pipes-2/accessoire%20pipe/allumette-4saisons-1.jpg', 1, 1),
 		('super premium', 'an eternal match', 4, 'https://cdn.shopify.com/s/files/1/0193/9623/1268/products/Screenshot_1_d3fa450b-854a-4afd-86a2-09bb972ced46_600x.jpg?v=1604498786', 1, 1),
 		('Multifunction', 'can also be used as an earpick', 3, 'https://www.hpa-shop.fr/164-large_default/allumettes-waterproof.jpg', 1, 1),
@@ -37,7 +37,7 @@ VALUES  ('1st price', 'the cheapest', 1, 'https://static.teteamodeler.com/media/
 		('Basic', 'Basic torch is very basic', 12, 'https://image.freepik.com/vecteurs-libre/torche-bois-feu-brulant-flamme-brillante-etincelles_99660-238.jpg', 3, 1),
 		('minecraft', 'If you like the cube, this torch is for you',3, 'https://vendugeek.com/3461-large_default/lampe-torche-minecraft.jpg', 3, 1),
 		('rake', 'an implement consisting of a pole with a toothed crossbar or fine tines at the end, used especially for cook sausage',2 ,'https://idata.over-blog.com/1/40/89/72//bbq-rateau-gazon.jpg', 4, 1),
-		('caddy supermarket', 'it is just a caddy', 1, 'https://lh3.googleusercontent.com/proxy/0Q19lgEdfkbySVg5JRENoDCxik_aSST03kPgxNaBc-IdTERzv0zzMNDm05ghnvchtA8sdbvB21oKZEbjqAOGDua3LMqGbILdZBzSWjs1Ug', 4, 1),
+		('caddy supermarket', 'it is just a caddy', 1, 'https://pbs.twimg.com/media/DwdhYKZWoAEyq2b.jpg', 4, 1),
 		('concrete block', 'made in Portugal CARAI', 1, 'https://www.batidrive-balan.com/53-home_default/parpaing-creux-15x20x50.jpg', 4, 1),
 		('Thor', 'It is Asgard''s most powerful weapon and the symbol of the mighty God of Thor, able to defeat Giants and unleash lightning.', 20, 'http://scotdir.com/wp-content/uploads/2015/12/norse-mythology-thor-hammer-of-the-gods_1.jpg', 5, 1),
 		('gavel', 'To judge your friends', 5, 'https://www.laboutiqueinsolite.com/928-thickbox_default/marteau-d-encheres-maillet-juge.jpg', 5, 1),
@@ -52,7 +52,7 @@ VALUES  ('1st price', 'the cheapest', 1, 'https://static.teteamodeler.com/media/
         ('Birch', 'A thicker Birch stick, serves all hitting purposes', 20, 'https://www.jardinet.fr/blog/wp-content/uploads/2017/11/Tout-savoir-sur-le-bouleau.jpg', 7, 3),
         ('Basic', 'The basic spear you will need in your life', 10,'https://inserezunepiece.files.wordpress.com/2016/05/carrot-on-a-stick.jpg?w=584', 8, 3),
         ('For Mammoths', 'The one you must have to hunt some big mammals.',  15, 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Neptune_cruise_missile_05.jpg', 8, 3),
-        ('For Beavers', 'Thin and and lightweight perfect to hunt small animals.', 14, 'https://upload.wikimedia.org/wikipedia/commons/4/4e/Neptune_cruise_missile_05.jpg', 8, 3),
+        ('For Beavers', 'Thin and and lightweight perfect to hunt small animals.', 14, 'https://static.turbosquid.com/Preview/2019/04/22__06_39_32/screenshot000.pngBBDDE318-EF98-44F3-A09D-CC709D1B2860Large.jpg', 8, 3),
         ('For People', 'Sharpest then a shark is theet the perfect tool to kill you friend.', 100, 'https://static.turbosquid.com/Preview/2014/10/01__13_59_52/render1.pngd653606e-2afd-45df-8653-6b1b2aeafee2Large.jpg', 8, 3),
         ('Useless', 'Just a spear.', 10, 'https://image.shutterstock.com/image-photo/pointed-stick-sharp-wooden-spear-260nw-1631071417.jpg', 8, 3),
         ('Mammoth ligament', 'Made of a ligament of mammouth', 4, 'http://www.survie-et-survivalisme.com/wp-content/uploads/2016/10/lance-pierre-en-bois.jpg', 9, 3),
@@ -64,7 +64,7 @@ VALUES  ('1st price', 'the cheapest', 1, 'https://static.teteamodeler.com/media/
         ('x20', 'A stack of arrow.', 25, 'https://m.media-amazon.com/images/I/51oZfRK2K+L._AC_SY450_.jpg', 11, 3),
         ('Prehistoric tobacco', 'Tobacco to dry', 8, 'https://i1.wp.com/lesmoutonsenrages.fr/wp-content/uploads/2014/12/tobacco-19997_640.jpg', 12, 4),
         ('Weed do-it yourself', 'The weed you would never have given to your mom', 150, 'https://cdn.aarp.net/content/dam/aarp/health/drugs_supplements/2019/08/1140-med-marijuana-caduceus.imgcache.rev873985b7234d2a2df9a09f5cefacea57.jpg', 12, 4),
-        ('Smoking bear skin', 'first catch a bear and then think of smoking', 1000, 'https://lh3.googleusercontent.com/proxy/vViBhqCJzfGuAADRn-3kM0jywGO_1TV2dWL9JcfG448pTdReH8Yx1bzg8ye5zD7ev-lvXDCohZo0RcEaw39vr0L8uSHGUrZwmtmVKJ8', 12, 4),
+        ('Smoking bear skin', 'first catch a bear and then think of smoking', 1000, 'https://thumbs.dreamstime.com/b/close-real-brown-bear-fur-texture-real-brown-bear-fur-texture-127585237.jpg', 12, 4),
         ('Smoking yak hair', 'then catch a yak and a barber at the same time', 900, 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg/1200px-Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg', 12, 4),
         ('Paleo apero', 'Apero time', 20, 'https://www.lanutrition.fr/sites/default/files/styles/preview_article_medium_line/public/ressources/aliments_diabete_glucometres.jpg?itok=Mo9HWzNX', 13, 4),
         ('Grapes', 'Learn to cultivate grape and forget about juices!', 8, 'https://www.irbms.com/wp-content/uploads/2019/09/raisin-sante-600x400.jpg', 14, 5),

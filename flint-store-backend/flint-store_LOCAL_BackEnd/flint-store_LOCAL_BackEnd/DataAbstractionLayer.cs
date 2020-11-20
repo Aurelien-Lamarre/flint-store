@@ -31,7 +31,9 @@ namespace flint_store_LOCAL_BackEnd
                     itemName = reader.GetString(1),
                     itemDescription = reader.GetString(2),
                     itemPrice = reader.GetDouble(3),
-                    itemImg = reader.GetString(4)
+                    itemImg = reader.GetString(4),
+                    FK_subCategory = reader.GetInt32(5),
+                    FK_categoryId = reader.GetInt32(6)
                 };
                 items.Add(item);
             }
