@@ -7,6 +7,8 @@ import Styled from 'styled-components';
 const Title = Styled.h1`
   text-align: center;
   margin: 30px;
+  color: white;
+  text-shadow: 1px -5px 3px black;
   `;
 
 const LightAndFire = () => {
@@ -24,7 +26,7 @@ const LightAndFire = () => {
   return (
     <>
 
-      <Title>Fire and Light <span role="img" aria-label="fire">🔥</span></Title>
+      <Title>FIRE AND LIGHT <span role="img" aria-label="fire">🔥</span></Title>
       
         <DisplaySubCategories props={allumette} title={allumetteTitle} />
       

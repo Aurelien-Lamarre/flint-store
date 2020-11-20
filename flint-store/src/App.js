@@ -16,8 +16,8 @@ import Cart from './components/displaySubCategories/Cart';
 
 function App() {
   return (
-    <>
-    <Router>
+    <div className="body">
+      <Router>
       <Navigation />
       <Carou />
       <Switch>
@@ -33,7 +33,7 @@ function App() {
         </Switch>
         <Footer />
     </Router>
-    </>
+    </div>
   );
 }
 
