@@ -1,4 +1,10 @@
-.footerlink{
-  margin: 0.5em;
-  font-size: large;
+.NavItemLink {
+  color: grey;
+}
+
+@media only screen and (max-width:760px){
+  .NavItemFooterCss {
+    display: flex;
+    flex-direction: column;
+  }
 }
