@@ -19,16 +19,8 @@ namespace flint_store_LOCAL_BackEnd
             stringBuilder.InitialCatalog = "flintStore";
             stringBuilder.IntegratedSecurity = true;
             DataAbstractionLayer.Open(stringBuilder);
-            IEnumerable<Item> items = DataAbstractionLayer.SelectAllItems();
-
-            foreach (Item item in items)
-            {
-                Console.WriteLine(item);
-            }
-
-            DataAbstractionLayer.Close();
-
             CreateHostBuilder(args).Build().Run();
+            DataAbstractionLayer.Close();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>

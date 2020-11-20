@@ -16,18 +16,9 @@ namespace flint_store_LOCAL_BackEnd.Controllers
 
         [HttpGet]
         public IEnumerable<Item> GetAllItems()
-        {
-            SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
-            stringBuilder.DataSource = "LOCALHOST\\SQLEXPRESS";
-            stringBuilder.InitialCatalog = "flintStore";
-            stringBuilder.IntegratedSecurity = true;
-            DataAbstractionLayer.Open(stringBuilder);
-            IEnumerable<Item> items = DataAbstractionLayer.SelectAllItems();
-
-            DataAbstractionLayer.Close();
-
-            return items;     
-          
+        {  
+          IEnumerable<Item> items = DataAbstractionLayer.SelectAllItems();
+          return items;              
         }
     }
 }
