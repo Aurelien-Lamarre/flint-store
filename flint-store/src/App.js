@@ -6,6 +6,7 @@ import WeaponsAndHunting from './components/WeaponsAndHunting';
 import TorchParty from './components/TorchParty';
 import Home from './components/Home';
 import Navigation from './components/Navigation';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route path='/torchparty' component={TorchParty} />
       </Switch>
     </Router>
+    <Footer />
     </>
   );
 }
