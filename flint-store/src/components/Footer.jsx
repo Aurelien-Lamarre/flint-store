@@ -1,13 +1,16 @@
 import React from 'react';
 import { Nav, NavItem, NavLink } from 'reactstrap';
-import styled, {css} from 'styled-components'
+import styled from 'styled-components'
+import "./Footer.css"
 
 const NavFooter = styled.div`
   display: flex;
   background-color: #343a40;
-  font-size: 1.3em;
-  height: 3em;
+  font-size: 1em;
   align-items: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: 1em
 `;
 
 const NavItemFooter = styled.div`
@@ -27,18 +30,18 @@ padding top: 10em
 const Footer = (props) => {
   return (
     <div>
-      <NavFooter>
+      <NavFooter className="NavItemFooterCss">
         <NavItemFooter>
-          <NavLink href="/lightandfire">Fire and Light</NavLink>
+          <NavLink className="NavItemLink" href="/lightandfire">Fire and Light</NavLink>
         </NavItemFooter>
         <NavItemFooter>
-          <NavLink href="/diy">D.I.Y</NavLink>
+          <NavLink className="NavItemLink" href="/diy">D.I.Y</NavLink>
         </NavItemFooter>
         <NavItemFooter>
-          <NavLink href="/weaponsandhunting">Weapons</NavLink>
+          <NavLink className="NavItemLink" href="/weaponsandhunting">Weapons</NavLink>
         </NavItemFooter>
         <NavItemFooter>
-          <NavLink href="/torchparty">Torch Party</NavLink>
+          <NavLink className="NavItemLink" href="/torchparty">Torch Party</NavLink>
         </NavItemFooter>
       </NavFooter>
       <hr />
