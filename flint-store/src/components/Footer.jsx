@@ -31,7 +31,6 @@ padding top: 10em
 
 const Footer = (props) => {
   return (
-    <div>
       <NavFooter className="NavItemFooterCss">
         <NavItemFooter>
           <NavLink className="NavItemLink" href="/privacy">Privacy</NavLink>
@@ -43,8 +42,6 @@ const Footer = (props) => {
           <NavLink className="NavItemLink" href="/terms">Terms</NavLink>
         </NavItemFooter>
       </NavFooter>
-      <hr />
-    </div>
   );
 }
 
