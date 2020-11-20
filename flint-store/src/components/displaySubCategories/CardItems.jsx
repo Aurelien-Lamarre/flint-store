@@ -1,16 +1,29 @@
 import React, { useState, useEffect } from 'react';
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button
+} from 'reactstrap';
+import './CardItems.css';
+
+import Styled from 'styled-components';
+
 
 const CardItems = ({props}) => {
   return (
     <>
-      <div>
-        <img src={props.item_img_url} alt="" /> 
-        <h1>{props.item}</h1>
-        <p>{props.item_description}</p>
-        <p>{props.item_price}</p>
-      </div>
+      <div className="cardBody">
+      <Card>
+        <CardImg className='image'  src={props.itemImg} alt="Card image cap" />
+        <CardBody>
+          <CardTitle tag="h5">{props.itemName}</CardTitle>
+          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice}</CardSubtitle>
+          <CardText>{props.itemDescription}</CardText>
+          <Button>Button</Button>
+        </CardBody>
+      </Card>
+    </div>
     </>
-  );
+  ); 
 }
 
 export default CardItems;
