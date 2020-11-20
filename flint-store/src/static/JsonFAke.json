@@ -1,0 +1,434 @@
+[
+  {
+  "itemId": 1,
+  "itemName": "1st price",
+  "itemDescription": "the cheapest",
+  "itemPrice": 1,
+  "itemImg": "https://images.theconversation.com/files/274038/original/file-20190513-183106-1nf83ky.jpg?ixlib=rb-1.1.0&rect=47%2C0%2C5306%2C3518&q=45&auto=format&w=496&fit=clip",
+  "fK_subCategory": 1,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 2,
+  "itemName": "decorative",
+  "itemDescription": "the most beautiful matches",
+  "itemPrice": 2,
+  "itemImg": "https://cdn1.smkg.fr/images/Image/produits/pipes-2/accessoire%20pipe/allumette-4saisons-1.jpg",
+  "fK_subCategory": 1,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 3,
+  "itemName": "super premium",
+  "itemDescription": "an eternal match",
+  "itemPrice": 4,
+  "itemImg": "https://cdn.shopify.com/s/files/1/0193/9623/1268/products/Screenshot_1_d3fa450b-854a-4afd-86a2-09bb972ced46_600x.jpg?v=1604498786",
+  "fK_subCategory": 1,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 4,
+  "itemName": "Multifunction",
+  "itemDescription": "can also be used as an earpick",
+  "itemPrice": 3,
+  "itemImg": "https://www.hpa-shop.fr/164-large_default/allumettes-waterproof.jpg",
+  "fK_subCategory": 1,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 5,
+  "itemName": "The big daddy",
+  "itemDescription": "Elon Musk would be proud",
+  "itemPrice": 10000,
+  "itemImg": "https://www.lesaviezvous.net/wp-content/uploads/2014/05/lance-flamme.jpg",
+  "fK_subCategory": 2,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 6,
+  "itemName": "The green one",
+  "itemDescription": "Magnificent magnifying lighter",
+  "itemPrice": 55,
+  "itemImg": "https://media.lelombrik.net/t/0b335518bab6f129db5d267791164408/p/01.jpg",
+  "fK_subCategory": 2,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 7,
+  "itemName": "the classic",
+  "itemDescription": "It is not much, but it is honest work",
+  "itemPrice": 18,
+  "itemImg": "https://axel-com.com/431-medium_default/briquet-bic.jpg",
+  "fK_subCategory": 2,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 8,
+  "itemName": "koh-lanta",
+  "itemDescription": "If you feel you are not tribal enough",
+  "itemPrice": 570,
+  "itemImg": "https://cache.cosmopolitan.fr/data/photo/w1000_ci/52/koh-elimnation.jpg",
+  "fK_subCategory": 3,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 9,
+  "itemName": "molotov",
+  "itemDescription": "gilet jaune style",
+  "itemPrice": 80,
+  "itemImg": "https://vignette.wikia.nocookie.net/barovia/images/3/30/Molotov_cocktail.png/revision/latest/top-crop/width/360/height/450?cb=20180221161649&path-prefix=fr",
+  "fK_subCategory": 3,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 10,
+  "itemName": "Basic",
+  "itemDescription": "Basic torch is very basic",
+  "itemPrice": 12,
+  "itemImg": "https://image.freepik.com/vecteurs-libre/torche-bois-feu-brulant-flamme-brillante-etincelles_99660-238.jpg",
+  "fK_subCategory": 3,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 11,
+  "itemName": "minecraft",
+  "itemDescription": "If you like the cube, this torch is for you",
+  "itemPrice": 3,
+  "itemImg": "https://vendugeek.com/3461-large_default/lampe-torche-minecraft.jpg",
+  "fK_subCategory": 3,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 12,
+  "itemName": "rake",
+  "itemDescription": "an implement consisting of a pole with a toothed crossbar or fine tines at the end, used especially for cook sausage",
+  "itemPrice": 2,
+  "itemImg": "https://idata.over-blog.com/1/40/89/72//bbq-rateau-gazon.jpg",
+  "fK_subCategory": 4,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 13,
+  "itemName": "caddy supermarket",
+  "itemDescription": "it is just a caddy",
+  "itemPrice": 1,
+  "itemImg": "https://pbs.twimg.com/media/DwdhYKZWoAEyq2b.jpg",
+  "fK_subCategory": 4,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 14,
+  "itemName": "concrete block",
+  "itemDescription": "made in Portugal CARAI",
+  "itemPrice": 1,
+  "itemImg": "https://www.batidrive-balan.com/53-home_default/parpaing-creux-15x20x50.jpg",
+  "fK_subCategory": 4,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 15,
+  "itemName": "Thor",
+  "itemDescription": "It is Asgard's most powerful weapon and the symbol of the mighty God of Thor, able to defeat Giants and unleash lightning.",
+  "itemPrice": 20,
+  "itemImg": "http://scotdir.com/wp-content/uploads/2015/12/norse-mythology-thor-hammer-of-the-gods_1.jpg",
+  "fK_subCategory": 5,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 16,
+  "itemName": "gavel",
+  "itemDescription": "To judge your friends",
+  "itemPrice": 5,
+  "itemImg": "https://www.laboutiqueinsolite.com/928-thickbox_default/marteau-d-encheres-maillet-juge.jpg",
+  "fK_subCategory": 5,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 17,
+  "itemName": "Splutter",
+  "itemDescription": "Droplet of saliva projected while speaking: Send postilions.",
+  "itemPrice": 10,
+  "itemImg": "https://www.manutan.fr/img/S/GRP/ST/AIG1893301.jpg",
+  "fK_subCategory": 5,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 18,
+  "itemName": "hammerhead shark",
+  "itemDescription": "The common hammerhead shark is easily distinguished from other shark species by the compressed head that characterizes it. Its skull, large and flattened, gives it a unique shape.",
+  "itemPrice": 40,
+  "itemImg": "https://lh4.googleusercontent.com/_1bP-bEN6YF0fPjEa0QR6erzfUZJoeDgKSqTTHq-iohbyzC8mO4N25ZN7ecyO_OZvTH21J_Qn5PQx78iUKco222d7FBFC0AL1C_pk3Ls6wwJiddoloNPiQgKmtVeuQu6LiJY00c",
+  "fK_subCategory": 5,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 19,
+  "itemName": "Mikado",
+  "itemDescription": "thiner but longer",
+  "itemPrice": 5,
+  "itemImg": "https://media3.petitzebre.com/101651-thickbox_default/mikado-geant.jpg",
+  "fK_subCategory": 6,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 20,
+  "itemName": "Oak",
+  "itemDescription": "Strong like an oak!",
+  "itemPrice": 3,
+  "itemImg": "https://balla-cosmetiques.com/661-large_default/siwa-baton-dentaire-x3.jpg",
+  "fK_subCategory": 6,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 21,
+  "itemName": "Birch",
+  "itemDescription": "Do you have a birch tree nearby? Good now you also have a birch stick",
+  "itemPrice": 4,
+  "itemImg": "https://scx2.b-cdn.net/gfx/news/2017/3-theevolution.jpg",
+  "fK_subCategory": 6,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 22,
+  "itemName": "Cottonwood",
+  "itemDescription": "Smooth cottonwood for a smoother hit",
+  "itemPrice": 5,
+  "itemImg": "https://cf.ltkcdn.net/garden/images/orig/204351-2125x1411-Cottonwood-Tree-in-Autumn.jpg",
+  "fK_subCategory": 6,
+  "fK_categoryId": 1
+  },
+  {
+  "itemId": 23,
+  "itemName": "Vibrating",
+  "itemDescription": "When you need to make your enemies shake in fear but also physically",
+  "itemPrice": 49,
+  "itemImg": "https://images-na.ssl-images-amazon.com/images/I/51AHZGMp01L._AC_SX679_.jpg ",
+  "fK_subCategory": 7,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 24,
+  "itemName": "Oak",
+  "itemDescription": "A thicker stronger Oak stick, nevermind the shorter size",
+  "itemPrice": 23,
+  "itemImg": "https://jardinage.lemonde.fr/images/dossiers/historique/mini/chenes-171748-650-325.jpg",
+  "fK_subCategory": 7,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 25,
+  "itemName": "Birch",
+  "itemDescription": "A thicker Birch stick, serves all hitting purposes",
+  "itemPrice": 20,
+  "itemImg": "https://www.jardinet.fr/blog/wp-content/uploads/2017/11/Tout-savoir-sur-le-bouleau.jpg",
+  "fK_subCategory": 7,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 26,
+  "itemName": "Basic",
+  "itemDescription": "The basic spear you will need in your life",
+  "itemPrice": 10,
+  "itemImg": "https://inserezunepiece.files.wordpress.com/2016/05/carrot-on-a-stick.jpg?w=584",
+  "fK_subCategory": 8,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 27,
+  "itemName": "For Mammoths",
+  "itemDescription": "The one you must have to hunt some big mammals.",
+  "itemPrice": 15,
+  "itemImg": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Neptune_cruise_missile_05.jpg",
+  "fK_subCategory": 8,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 28,
+  "itemName": "For Beavers",
+  "itemDescription": "Thin and and lightweight perfect to hunt small animals.",
+  "itemPrice": 14,
+  "itemImg": "https://static.turbosquid.com/Preview/2019/04/22__06_39_32/screenshot000.pngBBDDE318-EF98-44F3-A09D-CC709D1B2860Large.jpg",
+  "fK_subCategory": 8,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 29,
+  "itemName": "For People",
+  "itemDescription": "Sharpest then a shark is theet the perfect tool to kill you friend.",
+  "itemPrice": 100,
+  "itemImg": "https://static.turbosquid.com/Preview/2014/10/01__13_59_52/render1.pngd653606e-2afd-45df-8653-6b1b2aeafee2Large.jpg",
+  "fK_subCategory": 8,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 30,
+  "itemName": "Useless",
+  "itemDescription": "Just a spear.",
+  "itemPrice": 10,
+  "itemImg": "https://image.shutterstock.com/image-photo/pointed-stick-sharp-wooden-spear-260nw-1631071417.jpg",
+  "fK_subCategory": 8,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 31,
+  "itemName": "Mammoth ligament",
+  "itemDescription": "Made of a ligament of mammouth",
+  "itemPrice": 4,
+  "itemImg": "http://www.survie-et-survivalisme.com/wp-content/uploads/2016/10/lance-pierre-en-bois.jpg",
+  "fK_subCategory": 9,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 32,
+  "itemName": "Fémur bone",
+  "itemDescription": "Made of human femure.",
+  "itemPrice": 8,
+  "itemImg": "https://www.chefcook.fr/4707-intermediaire_default/os-de-veau-femur-scie.jpg",
+  "fK_subCategory": 9,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 33,
+  "itemName": "Classic",
+  "itemDescription": "The basic sling.",
+  "itemPrice": 20,
+  "itemImg": "https://i.pinimg.com/564x/c1/5e/0f/c15e0fef4edcfe838d5255a40e90ca42.jpg",
+  "fK_subCategory": 9,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 34,
+  "itemName": "Compound bow",
+  "itemDescription": "Bow with a pulley to increase its range.",
+  "itemPrice": 12,
+  "itemImg": "https://www.erhart-sports.com/4536-thickbox_default/hoyt-alpha-rx4-arc-a-poulies-de-chasse.jpg",
+  "fK_subCategory": 10,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 35,
+  "itemName": "Longbow",
+  "itemDescription": "Long bow to hunt from long distance.",
+  "itemPrice": 19,
+  "itemImg": "https://la-forge-medievale.com/927-large_default/-arc-long-viking-70-.jpg",
+  "fK_subCategory": 9,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 36,
+  "itemName": "Shortbow",
+  "itemDescription": "Small and robust you can take it everywhere.",
+  "itemPrice": 18,
+  "itemImg": "https://tangrammontessori.com/8922-large/petit-arc.jpg",
+  "fK_subCategory": 10,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 37,
+  "itemName": "x20",
+  "itemDescription": "A stack of arrow.",
+  "itemPrice": 25,
+  "itemImg": "https://m.media-amazon.com/images/I/51oZfRK2K+L._AC_SY450_.jpg",
+  "fK_subCategory": 11,
+  "fK_categoryId": 3
+  },
+  {
+  "itemId": 38,
+  "itemName": "Prehistoric tobacco",
+  "itemDescription": "Tobacco to dry",
+  "itemPrice": 8,
+  "itemImg": "https://i1.wp.com/lesmoutonsenrages.fr/wp-content/uploads/2014/12/tobacco-19997_640.jpg",
+  "fK_subCategory": 12,
+  "fK_categoryId": 4
+  },
+  {
+  "itemId": 39,
+  "itemName": "Weed do-it yourself",
+  "itemDescription": "The weed you would never have given to your mom",
+  "itemPrice": 150,
+  "itemImg": "https://cdn.aarp.net/content/dam/aarp/health/drugs_supplements/2019/08/1140-med-marijuana-caduceus.imgcache.rev873985b7234d2a2df9a09f5cefacea57.jpg",
+  "fK_subCategory": 12,
+  "fK_categoryId": 4
+  },
+  {
+  "itemId": 40,
+  "itemName": "Smoking bear skin",
+  "itemDescription": "first catch a bear and then think of smoking",
+  "itemPrice": 1000,
+  "itemImg": "https://thumbs.dreamstime.com/b/close-real-brown-bear-fur-texture-real-brown-bear-fur-texture-127585237.jpg",
+  "fK_subCategory": 12,
+  "fK_categoryId": 4
+  },
+  {
+  "itemId": 41,
+  "itemName": "Smoking yak hair",
+  "itemDescription": "then catch a yak and a barber at the same time",
+  "itemPrice": 900,
+  "itemImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg/1200px-Bos_grunniens_at_Yundrok_Yumtso_Lake.jpg",
+  "fK_subCategory": 12,
+  "fK_categoryId": 4
+  },
+  {
+  "itemId": 42,
+  "itemName": "Paleo apero",
+  "itemDescription": "Apero time",
+  "itemPrice": 20,
+  "itemImg": "https://www.lanutrition.fr/sites/default/files/styles/preview_article_medium_line/public/ressources/aliments_diabete_glucometres.jpg?itok=Mo9HWzNX",
+  "fK_subCategory": 13,
+  "fK_categoryId": 4
+  },
+  {
+  "itemId": 43,
+  "itemName": "Grapes",
+  "itemDescription": "Learn to cultivate grape and forget about juices!",
+  "itemPrice": 8,
+  "itemImg": "https://www.irbms.com/wp-content/uploads/2019/09/raisin-sante-600x400.jpg",
+  "fK_subCategory": 14,
+  "fK_categoryId": 5
+  },
+  {
+  "itemId": 44,
+  "itemName": "Press",
+  "itemDescription": "it is time to get your feet dirty ",
+  "itemPrice": 12,
+  "itemImg": "https://www.champagne.fr/assets/images/3-vigne-au-vin/Elaboration/pressoir-traditionnel.jpg",
+  "fK_subCategory": 14,
+  "fK_categoryId": 5
+  },
+  {
+  "itemId": 45,
+  "itemName": "Barrel",
+  "itemDescription": "you cannot wait for the iron to be invented!",
+  "itemPrice": 52,
+  "itemImg": "https://www.temesso.fr/media/image/67/7b/ff/tonneau-de-decoration-table-bar-225-litres-en-bois-de-che-ne-massif-1.jpg",
+  "fK_subCategory": 14,
+  "fK_categoryId": 5
+  },
+  {
+  "itemId": 46,
+  "itemName": "Hop",
+  "itemDescription": "it will become your favourite drink even before water",
+  "itemPrice": 20,
+  "itemImg": "https://www.challenges.fr/assets/afp/2020/04/25/f63aca8f6a95d7bd10b3a2e6dee2580a28787d2a.jpg",
+  "fK_subCategory": 15,
+  "fK_categoryId": 5
+  },
+  {
+  "itemId": 47,
+  "itemName": "Malt",
+  "itemDescription": "you need to buy hop first",
+  "itemPrice": 15,
+  "itemImg": "https://njmonthly.com/wp-content/uploads/cache/2017/07/malt/1133944283.jpg",
+  "fK_subCategory": 15,
+  "fK_categoryId": 5
+  },
+  {
+  "itemId": 48,
+  "itemName": "Yeast",
+  "itemDescription": "if you have found the 2 previous articles of Beers section, then cath this one",
+  "itemPrice": 3,
+  "itemImg": "https://cdn.bioalaune.com/img/article/thumb/900x500/13757-levure_de_biere_complement_alimentaire_naturel_aux_multiples_bienfaits.jpg",
+  "fK_subCategory": 15,
+  "fK_categoryId": 5
+  }
+  ]

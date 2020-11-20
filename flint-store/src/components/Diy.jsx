@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
+import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
-import axios from 'axios';
 
 const Title = Styled.h1`
   text-align: center;
@@ -11,19 +11,9 @@ const Title = Styled.h1`
   `;
 
 const Diy = () => {
-  const [diy, setDiy] = useState([]);
-  useEffect(() => {
-    const url = "http://flintstore.azurewebsites.net/flintStore";
-    axios.get(url)
-      .then(res => res.data)
-      .then(data => {
-        console.log(data)
-        setDiy(data)
-      })
-  },[])
 
-  const hammer = diy.filter(items => items.fK_subCategory === 5);
-  const stick = diy.filter(items => items.fK_subCategory === 6);
+  const hammer = JsonFAke.filter(items => items.fK_subCategory === 5);
+  const stick = JsonFAke.filter(items => items.fK_subCategory === 6);
   
   const hammerTitle = "Hammers";
   const stickTitle = "Sticks";
