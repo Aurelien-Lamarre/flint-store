@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
-import axios from 'axios';
+import React from 'react';
 import DisplaySubCategories from './displaySubCategories/DisplaySubCategories';
+import JsonFAke from './../static/JsonFAke.json';
 import Styled from 'styled-components';
 
 const Title = Styled.h1`
@@ -11,22 +11,10 @@ const Title = Styled.h1`
   `;
 
 const TorchParty = () => {
-  const [torch, setTorch] = useState([]);
-  useEffect(() => {
-    const url = "http://flintstore.azurewebsites.net/flintStore";
-    axios.get(url)
-      .then(res => res.data)
-      .then(data => {
-        console.log(data)
-        setTorch(data)
-      })
-  },[])
-
-
-  const smoke = torch.filter(items => items.fK_subCategory === 12);
-  const food = torch.filter(items => items.fK_subCategory === 13);
-  const wines = torch.filter(items => items.fK_subCategory === 14);
-  const beers = torch.filter(items => items.fK_subCategory === 15);
+  const smoke = JsonFAke.filter(items => items.fK_subCategory === 12);
+  const food = JsonFAke.filter(items => items.fK_subCategory === 13);
+  const wines = JsonFAke.filter(items => items.fK_subCategory === 14);
+  const beers = JsonFAke.filter(items => items.fK_subCategory === 15);
 
   const smokeTitle = "To smoke";
   const foodTitle = "Foodstuff";
