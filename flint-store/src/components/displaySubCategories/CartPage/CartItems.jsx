@@ -34,7 +34,7 @@ const CartItems = (props) => {
         <div className="collection">
           <div className="collection-item row cart-items-totals">
             <div className="col s8">Shopping Cart Totals</div>
-            <div className="col s2">${parseFloat(Math.round(totalPrice * 100) / 100).toFixed(2)}</div>
+            <div className="col s2"><span role="img" aria-label="boar">🐗</span> {parseFloat(Math.round(totalPrice * 100) / 100).toFixed(2)}</div>
             <div className="col s2">Qty: {totalItems}</div>
           </div>
         </div>
