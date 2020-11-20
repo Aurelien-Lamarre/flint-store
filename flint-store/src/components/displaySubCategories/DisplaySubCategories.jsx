@@ -1,7 +1,5 @@
 import React from 'react';
 import CardItems from './CardItems';
-import Styled from 'styled-components';
-import JsonFake from './../../static/JsonFAke.json';
 
 const CardWrap = Styled.div`
   display: flex;
@@ -39,6 +37,7 @@ const DisplaySubCategories = ({props, title}) => {
         </CardWrap> 
         </Wrap>
     </>
+
   );
 }
 
