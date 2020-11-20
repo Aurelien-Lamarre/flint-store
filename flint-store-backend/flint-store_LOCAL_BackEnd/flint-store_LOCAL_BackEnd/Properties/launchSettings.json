@@ -4,8 +4,8 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:52027",
-      "sslPort": 0
+      "applicationUrl": "http://flintstore.azurewebsites.net",
+      "sslPort": 44305
     }
   },
   "profiles": {
@@ -17,11 +17,20 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "API_test_": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "http://flintstore.azurewebsites.net",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "http://flintstore.azurewebsites.net"
+    },
     "flint_store_LOCAL_BackEnd": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "flintStore",
-      "applicationUrl": "http://localhost:5000",
+      "applicationUrl": "http://flintstore.azurewebsites.net",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

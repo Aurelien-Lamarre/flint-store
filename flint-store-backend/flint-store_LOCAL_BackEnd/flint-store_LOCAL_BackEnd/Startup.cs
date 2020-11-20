@@ -25,7 +25,28 @@ namespace flint_store_LOCAL_BackEnd
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(
+                        builder =>
+                        {
+                            builder.AllowAnyOrigin()
+                                           .AllowAnyMethod()
+                                            .AllowAnyHeader();
+                        });
+                options.AddPolicy("AnotherPolicy",
+                builder =>
+                {
+                    builder.WithOrigins("http://www.contoso.com")
+                                        .AllowAnyHeader()
+                                        .AllowAnyMethod();
+                });
+
+            });
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -33,7 +54,10 @@ namespace flint_store_LOCAL_BackEnd
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCors();
             }
+            app.UseCors();
+            // app.UseHttpsRedirection();
 
             app.UseRouting();
 
@@ -42,7 +66,9 @@ namespace flint_store_LOCAL_BackEnd
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
             });
+
         }
     }
 }

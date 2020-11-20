@@ -15,8 +15,16 @@ namespace flint_store_LOCAL_BackEnd
         public static void Main(string[] args)
         {
             SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
-            stringBuilder.DataSource = "LOCALHOST\\SQLEXPRESS";
+            stringBuilder.ConnectionString = "ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            stringBuilder.DataSource = "hackatuna.database.windows.net";
             stringBuilder.InitialCatalog = "flintStore";
+            stringBuilder.UserID = "adtautavel";
+            stringBuilder.Password = ""; //Insert Password !
+            stringBuilder.ConnectTimeout = 60;
+            stringBuilder.Encrypt = true;
+            stringBuilder.TrustServerCertificate = false;
+            stringBuilder.ApplicationIntent = 0 ;
+            stringBuilder.MultiSubnetFailover = false;
             stringBuilder.IntegratedSecurity = true;
             DataAbstractionLayer.Open(stringBuilder);
             CreateHostBuilder(args).Build().Run();
