@@ -14,9 +14,11 @@ const CardItems = ({props}) => {
         <CardImg className='image'  src={props.itemImg} alt="Card image cap" />
         <CardBody>
           <CardTitle tag="h5">{props.itemName}</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice} <span role="img" aria-label="boar">🐗</span></CardSubtitle>
           <CardText>{props.itemDescription}</CardText>
+          <div className="price-button-container">
+          <CardSubtitle tag="h6" className="mb-2 text-muted">{props.itemPrice} <span role="img" aria-label="boar">🐗</span></CardSubtitle>
           <Button>Add to cart</Button>
+          </div>
         </CardBody>
       </Card>
     </div>
